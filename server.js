@@ -54,7 +54,7 @@ app.get("/", (req, res) => {
 
 app.use(errormiddleware);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 // listen
 app.listen(PORT, () => {
   console.log(`Node server running on port number ${PORT}`);
